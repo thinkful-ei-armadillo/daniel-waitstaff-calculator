@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Waitstaff Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  
+</head>
+<body>
+  <h1 for="header 1">Waitstaff Calculator</h1>
+  <div class="meal-entry js-meal-entry">
+    <p class="meal-entry-title">Enter the Meal Details</p>
+    <form class="meal-entry-form js-meal-entry-form">
+      <label for="meal price entry">Base Meal Price: $</label>
+      <input type="number" for="meal price entry" /><br>
+      <label for="meal tax entry">Tax Rate: %</label>
+      <input type="number" for="meal tax entry" /><br>
+      <label for="meal tip entry">Tip Percentage: %</label>
+      <input type="number" for="meal tip entry" /><br>
+      <input type="button" value="Submit" for="submit" class="meal-entry-button js-meal-entry-submit"/>
+      <input type="button" value="Cancel" for="cancel" class="meal-entry-button js-meal-entry-cancel">
+    </form>
+  </div>
+  <div class="customer-charges">
+    <p class="customer-charges-title">Customer Charges</p>
+    <p class="customer-charges-subtotal">Subtotal: 0.00</p>
+    <p class="customer-charges-tip">Tip: 0.00</p>
+    <p class="customer-charges-total">Total: 0.00</p>
+  </div>
+  <div class="earnings-info">
+      <p class="earnings-info-title">My Earnings Info</p>
+      <p class="earnings-info-tip-total">Tip Total: 0.00</p>
+      <p class="earnings-meal-count">Meal Count: 0</p>
+      <p class="earnings-average-tip">Average Tip Per Meal: 0.00</p>
+  </div>
+  <div class="reset">
+    <input type="button" value="Reset" for="resetting the entire calculator" class="reset-button js-reset-button" aria-label="reset"/>
+  </div>
+  <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
