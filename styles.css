@@ -28,6 +28,7 @@ label {
 .meal-entry-button {
   margin-top: 15px;
   margin-right: 5px;
+  padding: 4px;
   width: 65px;
   height: 25px;
   border: solid 1px #333;
