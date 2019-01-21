@@ -15,14 +15,14 @@ label {
 }
 
 .meal-entry {
-  border: solid 1px #444;
+  border: solid 1px #555;
   margin: auto;
   padding: 15px;
   float: left;
 }
 
 .meal-entry form {
-  font: 10px;
+  margin: 10px;
 }
 
 .meal-entry-button {
@@ -37,11 +37,11 @@ label {
 .meal-entry-title {
   font: 500;
   font-size: 18px;
-  border-bottom: solid 1px #333333;
+  border-bottom: solid 1px #555;
 }
 
 .customer-charges {
-  border: solid 1px #444;
+  border: solid 1px #555;
   margin: auto;
   padding: 15px;
   float: right;
@@ -50,11 +50,11 @@ label {
 .customer-charges-title {
   font: 500;
   font-size: 18px;
-  border-bottom: solid 1px #444;
+  border-bottom: solid 1px #555;
 }
 
 .earnings-info {
-  border: solid 1px #444;
+  border: solid 1px #555;
   margin: auto;
   padding: 15px;
   float: right;
@@ -63,7 +63,7 @@ label {
 .earnings-info-title {
   font: 500;
   font-size: 18px;
-  border-bottom: solid 1px #444;
+  border-bottom: solid 1px #555;
 }
 
 .reset {
