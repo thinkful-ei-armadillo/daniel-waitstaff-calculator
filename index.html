@@ -12,28 +12,30 @@
   <h1 for="header 1">Waitstaff Calculator</h1>
   <div class="meal-entry js-meal-entry">
     <p class="meal-entry-title">Enter the Meal Details</p>
-    <form class="meal-entry-form js-meal-entry-form">
-      <label for="meal-price-entry">Base Meal Price: $</label>
-      <input type="number" id="meal-price-entry" name="mealprice" class="js-price" step="0.01" placeholder="0.00" min="0" /><br>
-      <label for="meal-tax-entry">Tax Rate: %</label>
-      <input type="number" id="meal-tax-entry" name="mealtax" class="js-tax" step="0.01" placeholder="0.00" min="0" /><br>
-      <label for="meal-tip-entry">Tip Percentage: %</label>
-      <input type="number" id="meal-tip-entry" name="mealtip" class="js-tip" step="0.01" placeholder="0.00" min="0" /><br>
-      <input type="submit" value="Submit" name="submit" class="meal-entry-button js-meal-entry-submit"/>
-      <input type="button" value="Cancel" name="cancel" class="meal-entry-button js-meal-entry-cancel">
-    </form>
+    <div class="meal-form-wrapper">
+      <form class="meal-entry-form js-meal-entry-form">
+        <label for="meal-price-entry">Base Meal Price: $</label>
+        <input type="number" id="meal-price-entry" name="mealprice" class="js-price" step="0.01" placeholder="0.00" min="0" required/><br>
+        <label for="meal-tax-entry">Tax Rate: %</label>
+        <input type="number" id="meal-tax-entry" name="mealtax" class="js-tax" step="0.01" placeholder="0.00" min="0" required/><br>
+        <label for="meal-tip-entry">Tip Percentage: %</label>
+        <input type="number" id="meal-tip-entry" name="mealtip" class="js-tip" step="0.01" placeholder="0.00" min="0" required/><br>
+        <input type="submit" value="Submit" name="submit" class="meal-entry-button js-meal-entry-submit"/>
+        <input type="button" value="Cancel" name="cancel" class="meal-entry-button js-meal-entry-cancel">
+      </form>
+    </div>
   </div>
   <div class="customer-charges">
     <p class="customer-charges-title">Customer Charges</p>
-    <p class="customer-charges-subtotal">Subtotal: 0.00</p>
-    <p class="customer-charges-tip">Tip: 0.00</p>
-    <p class="customer-charges-total">Total: 0.00</p>
+    <p class="customer-charges-subtotal"></p>
+    <p class="customer-charges-tip"></p>
+    <p class="customer-charges-total">Enter a meal to see your charges.</p>
   </div>
   <div class="earnings-info">
       <p class="earnings-info-title">My Earnings Info</p>
-      <p class="earnings-info-tip-total">Tip Total: 0.00</p>
-      <p class="earnings-meal-count">Meal Count: 0</p>
-      <p class="earnings-average-tip">Average Tip Per Meal: 0.00</p>
+      <p class="earnings-info-tip-total"></p>
+      <p class="earnings-meal-count"></p>
+      <p class="earnings-average-tip">Enter a meal to see your total earnings.</p>
   </div>
   <div class="reset">
     <input type="button" value="Reset" for="resetting the entire calculator" class="reset-button js-reset-button" aria-label="reset"/>

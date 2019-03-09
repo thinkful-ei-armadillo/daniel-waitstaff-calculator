@@ -7,7 +7,9 @@ h1 {
 }
 
 body {
-  /* float: left; */
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 label {
@@ -16,13 +18,21 @@ label {
 
 .meal-entry {
   border: solid 1px #555;
-  margin: auto;
+  text-align: center;
   padding: 15px;
-  float: left;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 40px;
 }
+
+/* .meal-form-wrapper {
+  width: 90%;
+  margin: 0 auto;
+} */
 
 .meal-entry form {
   margin: 10px;
+  /* text-align: left; */
 }
 
 .meal-entry-button {
@@ -43,9 +53,11 @@ label {
 
 .customer-charges {
   border: solid 1px #555;
-  margin: auto;
+  text-align: center;
   padding: 15px;
-  float: right;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
 .customer-charges-title {
@@ -56,9 +68,11 @@ label {
 
 .earnings-info {
   border: solid 1px #555;
-  margin: auto;
+  text-align: center;
   padding: 15px;
-  float: right;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
 .earnings-info-title {
@@ -73,10 +87,11 @@ label {
   width: 100%;
 }
 .reset-button {
+  font-size: 14px;
   float: right;
-  margin-right: 25px;
-  width: 65px;
-  height: 25px;
+  margin-right: 200px;
+  width: 75px;
+  height: 35px;
   border: solid 1px #333;
   box-shadow: 1px 2px #333;
 }
